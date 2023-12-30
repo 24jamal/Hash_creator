@@ -1,0 +1,59 @@
+/* login.css */
+
+/* Container styles to center the form at the top */
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column; /* Stack children in a column */
+}
+
+/* Form container styles */
+.form_container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 50px; /* Adjust the top margin as needed */
+}
+
+/* Input styles */
+.input_email,
+.input_pass {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid paleturquoise;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus styles */
+.input_email:focus,
+.input_pass:focus {
+  border-color: paleturquoise;
+}
+
+/* Button styles */
+.form_item {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Primary button style */
+.form_item.primary {
+  background-color: paleturquoise;
+  color: #fff;
+}
+
+/* Optional: Add hover effect to buttons */
+.form_item:hover {
+  background-color: paleturquoise;
+}

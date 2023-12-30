@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light background color */
+  color: #343a40; /* Text color */
+}
+
+/* Header styles */
+.App-header {
+  background-color: #007bff; /* Blue header background color */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Link styles */
+.App-link {
+  color: #28a745; /* Green link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  color: #218838; /* Darker green on hover */
+}
+
+/* Page content styles */
+.App-content {
+  padding: 20px;
+}
+
+/* Input styles */
+.App-input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ced4da; /* Light gray border color */
+  border-radius: 4px;
+}
+
+/* Button styles */
+.App-button {
+  background-color: #dc3545; /* Red button color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.App-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Form styles */
+.App-form {
+  max-width: 400px;
+  margin: auto;
+}
